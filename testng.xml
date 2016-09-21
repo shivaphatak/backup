@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test.java.Snapshot.AWSTest">
+  <listeners>
+    <listener class-name="Snapshot.AWSTest.CustomReporter" />
+  </listeners>
+  <test name="Simple Reporter test">
+    <!-- <parameter name="myName" value="Shivalika"/> --> 
+    <classes>
+      <class name="Snapshot.AWSTest.SampleTest" />
+    </classes>
+  </test>
+</suite>
